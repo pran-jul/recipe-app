@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Food Recipe App</h1>
+        </header>
+
+        <section class="search">
+            <h2>Search Recipes</h2>
+            <input type="text" id="ingredient" placeholder="Enter ingredient (e.g., pasta)">
+            <button onclick="searchRecipe()">Search</button>
+        </section>
+
+        <section class="recipes" id="recipes">
+            <!-- Recipe list will be displayed here -->
+        </section>
+
+        <section class="recipe-details" id="recipe-details">
+            <!-- Detailed view of the recipe will be displayed here -->
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Recipe App</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
